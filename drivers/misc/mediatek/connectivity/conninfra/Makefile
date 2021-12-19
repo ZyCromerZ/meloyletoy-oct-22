@@ -60,7 +60,8 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/pmic/include/
 ###############################################################################
 
 
-ccflags-y += -Werror
+# ccflags-y += -Werror
+
 ccflags-y += -Wno-error=format
 ccflags-y += -Wno-error=format-extra-args
 
